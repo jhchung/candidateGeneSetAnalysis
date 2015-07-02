@@ -5,3 +5,4 @@ packrat/src
 resampling_log.txt
 man/
 data/
+*.tar.gz
