@@ -1,0 +1,25 @@
+Package: candidateGeneSetAnalysis
+Type: Package
+Title: Candidate gene analysis of the TBX1 gene network
+Version: 0.1
+Date: 2015-06-25
+Authors@R: person("Jonathan", "Chung", email = "jonathan.chung@phd.eisntein.yu.edu",
+                  role = c("aut", "cre"))
+Description: Perform candidate gene analysis on the TBX1 gene network using high throughput sequencing data.
+Licence: MIT + file LICENSE
+Depends: R(>= 3.2.0)
+Imports: 
+    ggplot2,
+    doSNOW,
+    dplyr,
+    magrittr,
+    optparse,
+    plyr,
+    reshape2,
+    snow
+Suggests:
+    testthat,
+    knitr
+VignetteBuilder:
+    knitr
+LazyData: true

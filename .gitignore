@@ -1,0 +1,7 @@
+packrat/lib*/
+packrat/src
+.Rproj.user
+.Rhistory
+resampling_log.txt
+man/
+data/
